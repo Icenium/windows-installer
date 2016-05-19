@@ -10,6 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><%- description %></description>
     <copyright><%- copyright %></copyright>
+    <releaseNotes><%- releaseNotes %></releaseNotes>
   </metadata>
   <files>
     <file src="locales\**" target="lib\net45\locales" />
