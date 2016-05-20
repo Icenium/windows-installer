@@ -91,7 +91,8 @@ export async function createWindowsInstaller(options) {
 
   const metadata = {
     description: '',
-    iconUrl: 'https://raw.githubusercontent.com/atom/electron/master/atom/browser/resources/win/atom.ico'
+    iconUrl: 'https://raw.githubusercontent.com/atom/electron/master/atom/browser/resources/win/atom.ico',
+    releaseNotes: ''
   };
 
   if (options.usePackageJson !== false) {
